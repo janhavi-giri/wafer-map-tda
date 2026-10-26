@@ -1,4 +1,4 @@
-# Wafer Map TDA
+# Wafer Map TDA: A Hands-On Guide to Topological Learning
 
 Learn how **topological data analysis (TDA)** can describe wafer defect patterns. The notebooks generate synthetic wafer maps, turn each one into persistent-homology features, classify nine defect types, and explore the feature space with UMAP, t-SNE, k-means and a Mapper graph.
 

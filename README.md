@@ -1,5 +1,27 @@
 # Wafer Map TDA: A Hands-On Guide to Topological Learning
 
+## Georgia Tech Guest Lecture
+
+### Deep Topological Data Analysis for Semiconductor Data Mining
+
+**Guest lecturer:** Dr. Janhavi Giri  
+**Course:** [ECE 8803 AI4: AI and Machine Learning for Semiconductor Manufacturing and Digital Twins](https://syllabus.gatech.edu/syllabi/8803/ai4)  
+**Semester:** Fall 2026
+
+The lecture introduces persistent homology and deep TDA, illustrates applications to semiconductor data, and explores future directions with agentic AI.
+
+[Download the lecture slides (PowerPoint)](lecture-slides/DTDA-for-Semiconductor-Data-Mining%20-JGiri-Georgia-Tech-Final-10-26-Compressed.pptx)
+
+### Hands-on exercise
+
+Generate synthetic wafer maps, extract topological features, classify defect patterns, and explore Mapper graphs.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janhavi-giri/wafer-map-tda/blob/main/notebooks/wafer_map_tda_reviewed.ipynb)
+
+**Challenge:** How much does topology add beyond geometric features, and how does that change with noise? See [Try it yourself](#try-it-yourself) for suggested experiments.
+
+## About this repository
+
 Learn how **topological data analysis (TDA)** can describe wafer defect patterns. The notebooks generate synthetic wafer maps, turn each one into persistent-homology features, classify nine defect types, and explore the feature space with UMAP, t-SNE, k-means and a Mapper graph.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janhavi-giri/wafer-map-tda/blob/main/notebooks/wafer_map_tda_reviewed.ipynb)

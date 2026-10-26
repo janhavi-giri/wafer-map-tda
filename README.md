@@ -3,22 +3,23 @@
 ## Georgia Tech Guest Lecture
 
 ### Deep Topological Data Analysis for Semiconductor Data Mining
-
 **Guest lecturer:** Dr. Janhavi Giri  
 **Course:** [ECE 8803 AI4: AI and Machine Learning for Semiconductor Manufacturing and Digital Twins](https://syllabus.gatech.edu/syllabi/8803/ai4)  
 **Semester:** Fall 2026
-
 The lecture introduces persistent homology and deep TDA, illustrates applications to semiconductor data, and explores future directions with agentic AI.
-
 [Download the lecture slides (PowerPoint)](lecture-slides/DTDA-for-Semiconductor-Data-Mining%20-JGiri-Georgia-Tech-Final-10-26-Compressed.pptx)
-
 ### Hands-on exercise
-
 Generate synthetic wafer maps, extract topological features, classify defect patterns, and explore Mapper graphs.
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janhavi-giri/wafer-map-tda/blob/main/notebooks/wafer_map_tda_reviewed.ipynb)
 
 **Challenge:** How much does topology add beyond geometric features, and how does that change with noise? See [Try it yourself](#try-it-yourself) for suggested experiments.
+
+### Citing this lecture
+If you find this lecture useful or build on its material in your research, teaching, or software development, please cite:
+Giri, J. (2026). *Deep Topological Data Analysis for Semiconductor Data Mining* [Guest lecture slides]. ECE 8803 AI4, Georgia Institute of Technology.
+https://github.com/janhavi-giri/wafer-map-tda/tree/main/lecture-slides
+
+For code used in your work, please also cite the software using the repository’s `CITATION.cff`. Cite original research papers separately when building on methods or results discussed in the lecture.
 
 ## About this repository
 

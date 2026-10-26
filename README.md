@@ -1,4 +1,4 @@
-# Wafer Map TDA: A Hands-On Guide to Topological Learning
+# Wafer Map TDA: Persistent-Homology Features and Mapper Graphs for Wafer Defect Patterns
 
 ## Georgia Tech Guest Lecture
 

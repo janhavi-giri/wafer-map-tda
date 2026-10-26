@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wafer-map-tda"
+version = "1.0.0"
+description = "Synthetic wafer pattern classification with persistent homology and geometric features"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Janhavi Giri" }]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "seaborn", "ripser"]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab", "ipywidgets", "umap-learn", "kmapper", "networkx"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

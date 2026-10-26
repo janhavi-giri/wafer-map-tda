@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository in your work, please cite it as below."
+type: software
+title: "Wafer Map TDA: Persistent-Homology Features and Mapper Graphs for Wafer Defect Patterns"
+abstract: >-
+  Notebooks that generate synthetic WM811K-style wafer maps, extract
+  persistent-homology (TDA) features, classify defect types with a random
+  forest, and build KeplerMapper graphs of the feature space.
+authors:
+  - family-names: Giri
+    given-names: Janhavi
+version: 1.0.0
+license: MIT
+date-released: 2026-10-22
+repository-code: "https://github.com/janhavi-giri/wafer-map-tda"
+url: "https://github.com/janhavi-giri/wafer-map-tda"
+keywords:
+  - topological data analysis
+  - persistent homology
+  - Mapper
+  - wafer map
+  - semiconductor
+  - defect classification

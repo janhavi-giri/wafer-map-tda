@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+build/
+dist/
+data/
+artifacts/
+*.pkl
+*.joblib
+tda_mapper_graph.html
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.env
